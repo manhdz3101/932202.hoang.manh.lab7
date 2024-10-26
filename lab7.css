@@ -1,0 +1,33 @@
+.Triangle{
+    position: absolute;
+    opacity: .8;
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 0 solid blue;
+}
+.Square{
+    position: absolute;
+    background:red;
+    border: 1px solid black;
+    opacity: .8;
+}
+.Circle{
+    position: absolute;
+	background: green;
+    border-radius: 50px;
+    border: 1px solid black;
+    opacity: .8;
+}
+#out{
+    position: absolute;
+}
+
+.Triangle:hover{
+    border-bottom-color: yellow;
+}
+.Circle:hover{
+    background: yellow;
+}
+.Square:hover{
+    background: yellow;
+}
